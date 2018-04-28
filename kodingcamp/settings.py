@@ -19,7 +19,8 @@ DJANGO_APPS = [
 THIRD_P_APPS = []
 
 CUSTOM_APPS = [
-    'users'
+    'users',
+    'recommendation'
 ]
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_P_APPS + CUSTOM_APPS
